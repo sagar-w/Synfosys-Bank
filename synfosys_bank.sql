@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3307
--- Generation Time: Mar 15, 2021 at 08:08 PM
+-- Generation Time: Mar 17, 2021 at 08:17 AM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.10
 
@@ -40,10 +40,11 @@ CREATE TABLE `transaction` (
 --
 
 INSERT INTO `transaction` (`sno`, `sender`, `receiver`, `balance`, `datetime`) VALUES
-(19, 'Nikhil Rajput', 'Akshay Surya', 9999, '2021-03-15 16:39:24'),
-(20, 'Akshay Surya', 'Tejas Salunke', 1111, '2021-03-15 16:40:07'),
-(21, 'Nikhil Rajput', 'Akshay Surya', 67, '2021-03-15 17:20:01'),
-(22, 'Sagar Waghmare', 'Vishvesh Bansode', 1234, '2021-03-15 21:42:34');
+(1, 'Silene Oliveira', 'Ricardo', 7, '2021-03-17 12:44:09'),
+(2, 'Silene Oliveira', 'Nairobi ', 150, '2021-03-17 12:36:24'),
+(3, 'Sergio Marquina', ' Alison Parker', 1000, '2021-03-17 12:38:35'),
+(4, ' Raquel Murillo', 'Nairobi ', 5, '2021-03-17 12:45:07'),
+(5, ' Raquel Murillo', 'Sergio Marquina', 7, '2021-03-17 12:45:22');
 
 -- --------------------------------------------------------
 
@@ -63,17 +64,17 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `balance`) VALUES
-(1, 'Sagar Waghmare', 'sagar@gmail.com', 2116),
-(2, 'Nikhil Rajput', 'nikhil@gmail.com', 87934),
-(3, 'Akshay Surya', 'akshay@gmail.com', 78000),
-(4, 'Sanket Kulkarni', 'sanket@gmail.com', 650),
-(5, 'Neha Mohite', 'neha@gmail.com', 2013),
-(6, 'Vishvesh Bansode', 'vishvesh@gmail.com', 5666),
-(7, 'Rutik Deshpande', 'rutik@gmail.com', 21505),
-(8, 'Onkar Sinha', 'onkar@gmail.com', 800),
-(9, 'Tejas Salunke', 'tejas@gmail.com', 86011),
-(10, 'Saurabh Bhosle', 'asdfgh143@gmail.com', 5096),
-(11, 'Rushi Ambani', 'rushi@gmail.com', 876);
+(1, 'Silene Oliveira', 'silene@gmail.com', 1959),
+(2, 'Sergio Marquina', 'sergio@gmail.com', 86941),
+(3, ' Raquel Murillo', ' raquel@gmail.com', 77582),
+(4, 'Andrés de Fonollosa', 'andrés@gmail.com', 706),
+(5, 'Agustín Ramos', 'agustín@gmail.com', 2013),
+(6, 'Nairobi ', 'nairobi@gmail.com', 5826),
+(7, 'Aníbal Cortés', 'rio@gmail.com', 21505),
+(8, 'Ricardo', 'denver@gmail.com', 807),
+(9, ' Alison Parker', ' alison@gmail.com', 87011),
+(10, 'Mirko Dragic', 'mirko@gmail.com', 5441),
+(11, 'Mariví Fuentes', 'mariví@gmail.com', 876);
 
 --
 -- Indexes for dumped tables
@@ -99,7 +100,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `transaction`
 --
 ALTER TABLE `transaction`
-  MODIFY `sno` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `sno` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 
 --
 -- AUTO_INCREMENT for table `users`
