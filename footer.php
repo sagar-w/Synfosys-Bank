@@ -3,7 +3,7 @@
 
   <div class="container-fluid text-center text-md-left">
 
-  <div class="footer-copyright text-center py-3"><p>© 2021 Copyright: Developed By<p class="text-info">Sagar Waghmare.</p></p>
+  <div class="footer-copyright text-center py-3"><p>© 2021 Copyright: Developed By<p class="text-info">.</p></p>
   </div>
 
 
